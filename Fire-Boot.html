@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Fire-Boot</title>
+    <style type="text/css">
+      body{
+        position: relative;
+      }
+      .navbar{
+        background-color: transparent;
+      }
+      #logo{
+        width: 30px;
+        height: 30px;
+        margin-right: 7px;
+        
+      }
+      .jumbotron{
+        background-color: transparent;
+      }
+      .bg {        
+        background-image: url('img5.jpg') ; 
+        background-size: cover;       
+        z-index: -1;
+        
+      }
+      .bg1{
+        background-color: #FEA47F;
+        width:  100%;
+        height: 100%;
+        z-index: -1;
+      }
+      .bg2{
+        background-image: url('img8.jpg') ; 
+        background-size: cover;       
+        z-index: -1;
+      }
+      .icons{
+        width: 30px;
+      }
+      #appIcon{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="70">
+    
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar"style="background-color:#F3D8C5">
+      <a class="navbar-brand text-danger" href="#"><img class="rounded-circle"id="logo"src="fire_logo">Fire Boot</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#download">Download App</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="email" placeholder="Email id" aria-label="Emailid">
+          <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+          <button class="btn btn-success my-2 my-sm-0" type="submit">Log In</button>
+        </form>
+      </div>
+    </nav>
+    <div id="home" class="bg">
+    <div  class="jumbotron">
+      <h1 class="display-2">Welcome to Fire Boot</h1>
+      <p class="lead ">Life will never be the same.</p>
+      <hr class="my-4">
+      <p>Want to know more? Join our mailing list</p>
+      <form class="form-inline">
+        <div class="col-auto row">
+          <label class="sr-only" for="inlineFormInputGroup">Username</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">@</div>
+            </div>
+            <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+          </div>          
+        </div>
+        <button class="btn btn-primary mb-2 ml-1" type="submit">Sign Up</button>
+      </form> 
+      </div>     
+    </div>
+    <div id="about" class="text-center pt-5 bg1" style="margin-top: -32px">
+      <h1  class="display-4">
+        Why Fire Boot Is Awesome
+      </h1>
+      <p class="lead ">Bringing Joy & Comfort To Everyone</p>
+      <div class="container ">
+        <div class="card-deck my-5">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card text-white bg-danger">
+                <img class="card-img-top" src="img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><image class="icons mx-2" src="https://cdn2.iconfinder.com/data/icons/cycling/256/bike-fixed-gear-512.png"></image>Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>          
+                </div>
+              </div>
+            </div>
+          <div class="col-sm-4">
+              <div class="card text-white bg-warning">
+                <img class="card-img-top" src="img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><image class="icons mx-2" src="https://cdn3.iconfinder.com/data/icons/nautical-icons/512/Anchor-512.png"></image> Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>          
+                </div>
+              </div>
+            </div>
+          <div class="col-sm-4">
+              <div class="card text-white bg-dark">
+                <img class="card-img-top" src="img3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><image class="icons"src="https://d30y9cdsu7xlg0.cloudfront.net/png/215643-200.png"></image>
+                  Card title</h5>
+                  
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>          
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>    
+    <div id="download" class="bg2 py-5">
+      <h1  class="display-4 pt-5 mt-5 " >Download the app!</h1>
+      <h3 class="lead">Need to know what's awesome? Just download and find out!</h3>
+      <a href=""><image  class="pb-5 mb-5" id="appIcon" src="https://vignette.wikia.nocookie.net/postknight/images/b/b1/Apple_app_store_icon.png/revision/latest?cb=20170703032754" class="img-fluid" alt="Responsive image"></image></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      
+    </script>
+  </body>
+</html>
